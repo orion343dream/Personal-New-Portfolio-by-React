@@ -1,6 +1,82 @@
 export const myProjects = [
   {
     id: 1,
+    title: "Library Management Web Application",
+    description:
+      "Full-stack library management with React & MongoDB",
+    subDescription: [
+      "The frontend is built with React, Tailwind CSS, React Router, Axios, and Toastify, offering a clean and responsive UI with real-time alerts. The backend provides REST APIs with Mongoose and supports email reminders for overdue books.",
+      "For development, the project has separate frontend/ and backend/ setups. Developers install dependencies, run each part, and add a .env file in the backend for database and email credentials.",
+      "Deployment is simple: the frontend runs on Vercel, while the backend is hosted on Railway. The frontend connects to the backend API, making the system reliable and easy to maintain.",
+    ],
+    href: "https://github.com/orion343dream/Book-Club-Library-Management-Web-Application.git",
+    logo: "",
+    image: "/assets/projects/Book-Club-Library-Management-Web-Application.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
+      },
+      {
+        id: 3,
+        name: "Node.js",
+        path: "/assets/logos/node-js.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Tire Selling Platform",
+    description: "TireTrends is a full-stack e-commerce platform for tire retailers and automotive services, managing sales, bookings, vehicles, and inventory efficiently.",
+    subDescription: [
+      "The frontend provides a responsive interface with product browsing, Tire Finder, service booking, and checkout. The backend with Java Spring Boot handles authentication, orders, service scheduling, and database operations.",
+      "Key features include an admin dashboard for inventory, orders, and review moderation, plus customer tools like vehicle management and order history.",
+      "The platform is easy to set up locally and delivers a complete solution for automotive sales and services."
+    ],
+    href: "https://github.com/orion343dream/TireTrends-Vertex-We-Care-Your-Journey.git",
+    logo: "",
+    image: "/assets/projects/TyreTrends-Vertex-Springboot-Web.png",
+    tags: [
+      {
+        id: 1,
+        name: "Java",
+        path: "/assets/logos/java.svg",
+      },
+      {
+        id: 2,
+        name: "Spring Boot",
+        path: "/assets/logos/spring-boot.svg",
+      },
+      {
+        id: 3,
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 4,
+        name: "CSS3",
+        path: "/assets/logos/css3.svg",
+      },
+      {
+        id: 5,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "E-commerce Platform",
     description:
       "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
@@ -37,7 +113,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     title: "Authentication & Authorization System",
     description:
       "A secure authentication and authorization system using Auth0 for seamless user management.",
@@ -74,7 +150,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+    id: 5,
     title: "Blazor Web App",
     description:
       "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
@@ -111,7 +187,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 6,
     title: "C++ Game Engine",
     description:
       "A lightweight C++ game engine designed for 2D and 3D game development.",
@@ -148,7 +224,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "WordPress Custom Theme",
     description:
       "A fully customizable WordPress theme optimized for performance and SEO.",
@@ -185,7 +261,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Online Learning Platform",
     description:
       "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
