@@ -1,27 +1,34 @@
 import { useState } from "react";
 import { motion } from "motion/react";
 function Navigation() {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <ul className="nav-ul">
       <li className="nav-li">
-        <a className="nav-link" href="#home">
+        <button className="nav-link" onClick={() => scrollToSection('home')}>
           Home
-        </a>
+        </button>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#about">
+        <button className="nav-link" onClick={() => scrollToSection('about')}>
           About
-        </a>
+        </button>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#work">
+        <button className="nav-link" onClick={() => scrollToSection('work')}>
           Work
-        </a>
+        </button>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#contact">
+        <button className="nav-link" onClick={() => scrollToSection('contact')}>
           Contact
-        </a>
+        </button>
       </li>
     </ul>
   );
