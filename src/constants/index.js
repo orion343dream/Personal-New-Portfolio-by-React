@@ -1,6 +1,90 @@
 export const myProjects = [
   {
     id: 1,
+    title: "Library Management Web Application",
+    description:
+      "A full-stack web application for managing books, readers, and lending transactions in a library. Built with a React (TypeScript) frontend and a Node.js/Express backend.",
+    subDescription: [
+      "Built a full-stack library management system using React (TypeScript) frontend and Node.js/Express backend.",
+      "Implemented comprehensive book management, reader details, and lending transaction tracking.",
+      "Added overdue book tracking with email notifications and dashboard with responsive charts.",
+      "Deployed on Vercel (frontend) and Railway (backend) with MongoDB for data storage.",
+    ],
+    href: "https://github.com/orion343dream/Book-Club-Library-Management-Web-Application.git",
+    logo: "",
+    image: "/assets/projects/Book-Club-Library-Management-Web-Application.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
+      },
+      {
+        id: 3,
+        name: "Node.js",
+        path: "/assets/logos/node-js.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Tire Selling Platform",
+    description:
+      "TireTrends E-Commerce Platform: Your Complete Tire & Automotive Service Solution. A comprehensive platform for tire retailers with product sales, service booking, vehicle management, and inventory tracking.",
+    subDescription: [
+      "Full-stack e-commerce platform using Java 17 and Spring Boot for tire retailers.",
+      "Admin dashboard for sales monitoring, inventory management, and service booking.",
+      "Customer features: tire finder tool, vehicle management, service booking, secure checkout.",
+      "MySQL database integration with responsive HTML5, CSS3, JavaScript frontend.",
+    ],
+    href: "https://github.com/orion343dream/TireTrends-Vertex-We-Care-Your-Journey.git",
+    logo: "",
+    image: "/assets/projects/TyreTrends-Vertex-Springboot-Web.png",
+    tags: [
+      {
+        id: 1,
+        name: "Java",
+        path: "/assets/logos/java.svg",
+      },
+      {
+        id: 2,
+        name: "Spring Boot",
+        path: "/assets/logos/spring-boot.svg",
+      },
+      {
+        id: 3,
+        name: "MySQL",
+        path: "/assets/logos/microsoftsqlserver.svg",
+      },
+      {
+        id: 4,
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 5,
+        name: "CSS3",
+        path: "/assets/logos/css3.svg",
+      },
+      {
+        id: 6,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "E-commerce Platform",
     description:
       "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
@@ -37,7 +121,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Authentication & Authorization System",
     description:
       "A secure authentication and authorization system using Auth0 for seamless user management.",
@@ -74,7 +158,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Blazor Web App",
     description:
       "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
@@ -111,7 +195,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "C++ Game Engine",
     description:
       "A lightweight C++ game engine designed for 2D and 3D game development.",
@@ -148,7 +232,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "WordPress Custom Theme",
     description:
       "A fully customizable WordPress theme optimized for performance and SEO.",
@@ -185,7 +269,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Online Learning Platform",
     description:
       "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
@@ -326,3 +410,4 @@ export const reviews = [
     img: "https://robohash.org/eve",
   },
 ];
+
